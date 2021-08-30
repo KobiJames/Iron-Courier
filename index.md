@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Borealis AI proposal
 
-You can use the [editor on GitHub](https://github.com/KobiJames/Iron-Courier/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Since the textbox for the proposal wouldn't fit over 200 words... I decided to put it here, and just link this page to the proposal
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Proposal
 
-### Markdown
+Most basically, an option is a financial instrument which sells the right to purchase a stock (or some other financial product) for a predetermined price i.e., one can sell the right to purchase 'Stock A' for $100 within the next 28 days, and this would be considered an option. These financial products have a wide range of uses from risk management to speculative investment, making them incredibly useful tools for investors. Options are a very versatile financial instrument, however at the same time they can be very complex to understand and price. For example, the most common and accepted way to price an option is to use the Black-Scholes partial differential equation, which is not especially easy to understand for a large number of investors. While the options market is big, many people who work within finance disregard them due to their complexity, and even those who use them don’t always understand them completely. Furthermore, options are rather fast paced compared to the underlying stock and due to this, many investors are hesitant in investing in the options market with their limited knowledge. At the same time, options have a larger potential to yield higher returns in a short period of time, of which investors fail to take advantage. Our aim is to help with this problem: We want to make options more accessible, and easily understandable by people. Secondly, machine learning is another area of contention within finance. Much of the industry shuns using machine learning over more classical predictive models. Much of the reasoning in such decisions stems from, again, the complexity of machine learning, and the perception that models like neural nets are complete black boxes. Our secondary goal is to introduce the use of machine learning for prediction within finance in a way that can be understood. With these two goals in mind, our idea is to create a platform (in the form of a website) which uses free financial data to make basic predictions and measurements for options using various machine learning models (classical neural networks, different types of recurrent neural networks, and transformers). Specifically speaking, we would like to create machine learning models to price options, and to predict some of their more well-known parameters (collectively known as the option greeks). We would then use a website which publicizes the results of such models in real time and interprets their results in a readable manner. The vision is to have investors open such a website, and say to oneself “oh, Iron Courier’s neural net thinks that options on Apple stock should be very expensive today”, and then hopefully such a person could use such data to make an informed decision, or even to push them to use machine learning themselves. Part of the project would also be to discover if machine learning models can perform such prediction to any degree of accuracy.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KobiJames/Iron-Courier/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+As to why we want to apply machine learning to our problem, we believe that ML is excellent at finding patterns, and RNNs/transformers are even better at looking at sequential data. The data we find in finance, and more specifically in the options market, is all time-series, sequential data, which is perfect for a RNN or transformer to work with. 
